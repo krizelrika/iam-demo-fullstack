@@ -1,5 +1,4 @@
-INSERT INTO roles (name, description)
+INSERT INTO users (username, email, password_hash, status)
 VALUES
-  ('ADMIN', 'System administrator'),
-  ('krizel', 'System administrator'),
-  ('USER', 'Standard user');
+  ('admin', 'admin@example.com', 'demo-hash', 'ACTIVE'),
+  ('user1', 'user1@example.com', 'demo-hash', 'ACTIVE');
